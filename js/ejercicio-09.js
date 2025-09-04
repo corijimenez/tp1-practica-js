@@ -1,11 +1,11 @@
 //9.- Escribe un programa que pida una frase 
 // y escriba las vocales que aparecen
 
-let frase = prompt("Escribe una frase:")
-let vocales = ""
+const frase = prompt("Escribe una frase:")
+const vocales = ""
 
-for (let i = 0; i < frase.length; i++) {
-    let letra = frase.charAt(i)
+for (const i = 0; i < frase.length; i++) {
+    const letra = frase.charAt(i)
     if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
       vocales += letra + " "
     }

@@ -2,7 +2,7 @@
 // los cuatro es divisible
 // (hay que decir todos por los que es divisible)
 
-let numero = parseInt(prompt("Ingresa un numero:"));
+const numero = parseInt(prompt("Ingresa un numero:"));
 let divisores = [];
 if (isNaN(numero)) {
   document.writeln("Por favor ingresa un numero valido");

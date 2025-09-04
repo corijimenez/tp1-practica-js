@@ -2,7 +2,7 @@
 //  y nos diga si es divisible por 2, 3, 5 o 7 
 // (sólo hay que comprobar si lo es por uno de los cuatro)
 
-let numero= parseInt(prompt("Ingresa un numero:"))
+const numero= parseInt(prompt("Ingresa un numero:"))
 
 if(numero % 2 == 0){    
     document.writeln("El numero " + numero + " es divisible por 2")

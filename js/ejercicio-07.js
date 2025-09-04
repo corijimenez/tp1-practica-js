@@ -1,9 +1,9 @@
 //7.- Escribe un programa que pida 3 números y
 //  escriba en la pantalla el mayor de los tres.
 
-let numero1= parseInt(prompt("Ingresa el primer numero:"))
-let numero2= parseInt(prompt("Ingresa el segundo numero:"))
-let numero3= parseInt(prompt("Ingresa el tercer numero:")) 
+const numero1= parseInt(prompt("Ingresa el primer numero:"))
+const numero2= parseInt(prompt("Ingresa el segundo numero:"))
+const numero3= parseInt(prompt("Ingresa el tercer numero:")) 
 
 if(numero1>numero2 && numero1>numero3){
     document.writeln("El numero mayor es: " + numero1)

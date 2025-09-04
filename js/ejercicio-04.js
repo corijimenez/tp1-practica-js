@@ -2,5 +2,5 @@
 // pida el nombre del usuario con un prompt y
 //  escriba un texto que diga «Hola nombreUsuario»
 
-let nombreUsuario = prompt("Ingresa tu nombre:")
+const nombreUsuario = prompt("Ingresa tu nombre:")
 document.writeln("Hola " + nombreUsuario)
